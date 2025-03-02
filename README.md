@@ -3,7 +3,6 @@ Custom Structure JSON Files For Console and PC Instructions ONLY WORKS ON DAYZ 1
 
 Store created for players on my xbox community server. Inside of an otherwise empty airplane hangar; you now have shelving full of supplies to make it easier to battle the post-apocalyptic archipelago of Sakhal.
 
-IVE ADDED INDIVIDUAL JSON/DZE FILES AS WELL AS A ZIP OF ALL JSONS OR ALL DZE TOGETHER
 Limited testing was conducted on Xbox Series S using DayZ Version 1.26 as of March 2025.
 
 Created by @WiffleWhomper. For bug reports or issues, please email c.lindberg823@gmail.com with relevant screenshots.

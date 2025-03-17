@@ -7,7 +7,7 @@ Limited testing was conducted on Xbox Series S using DayZ Version 1.26 as of Mar
 
 Created by @WiffleWhomper. For bug reports or issues, please email c.lindberg823@gmail.com with relevant screenshots.
 
-If you'd like to edit any file, simply load the file into the DayZ Editor.
+If you'd like to edit any file, simply load the .DZE file into the DayZ Editor.
 
 TERMS OF USE THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
@@ -23,7 +23,11 @@ https://www.xmlvalidation.com/
 
 https://jsonlint.com/
 
-Instructions: Download the Files Click the "Code" button and select "Download ZIP" from the GitHub Repository. Extract the files to your local PC.
+
+
+
+
+Instructions:
 
 Stop Your Server Ensure your server is offline before proceeding.
 
@@ -37,8 +41,12 @@ Edit the cfggameplay.json Open the cfggameplay.json file in the correct mission 
 
 Edit the file to look like this:
 
-"objectSpawnersArr": ["custom/sakhalstore.json"] If you're already calling other custom JSONs to spawn items or buildings, separate them with commas:
+"objectSpawnersArr": ["custom/sakhalstore.json"]
 
-"objectSpawnersArr": ["custom/sakhalstore.json", "custom/anotherfile.json", "custom/differentfile.json"] Restart Your Server After completing these steps, restart your server, and the new store will spawn with all items ready for use.
+ If you're already calling other custom JSONs to spawn items or buildings, separate them with commas:
+
+"objectSpawnersArr": ["custom/sakhalstore.json", "custom/anotherfile.json", "custom/differentfile.json"] 
+
+ restart your server and the new store will spawn with all items ready for use.
 
 Thanks, and happy gaming! Created by @WiffleWhomper For support or inquiries: c.lindberg823@gmail.com

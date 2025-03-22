@@ -63,7 +63,7 @@ Instructions:
 
  -  Tools >> File Browser >> dayzxb_missions >> dayzOffline.Sakhal >> cfggameplay.json
 
-          "WorldsData":
+        "WorldsData":
         	{
         		"lightingConfig": 2,
         		"objectSpawnersArr": [],

@@ -44,13 +44,13 @@ Ensure you activate cfggameplay.json
 
  Upload your file:
 
-  Tools >> File Browser >> dayzxb_missions >> dayzOffline.Sakhal >> custom >> "Upload File" 
+  -  Tools >> File Browser >> dayzxb_missions >> dayzOffline.Sakhal >> custom >> "Upload File" 
  
    (If a custom folder doesn't exist, create one.)
 
 Call to the custom file using the cfggameplay.json  
 
- Tools >> File Browser >> dayzxb_missions >> dayzOffline.Sakhal >> cfggameplay.json
+ -  Tools >> File Browser >> dayzxb_missions >> dayzOffline.Sakhal >> cfggameplay.json
 
           "WorldsData":
         	{

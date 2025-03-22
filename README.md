@@ -46,6 +46,7 @@ Ensure you activate cfggameplay.json
 
 Call to the custom file using the cfggameplay.json  
  Tools >> File Browser >> dayzxb_missions >> dayzOffline.Sakhal >> cfggameplay.json
+
           "WorldsData":
         	{
         		"lightingConfig": 2,

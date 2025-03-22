@@ -29,11 +29,11 @@ https://jsonlint.com/
 
 Instructions:
 
-Stop Your Server!!
+1.) Stop Your Server!!
 
   Ensure your server is offline before proceeding.
 
-Ensure you activate cfggameplay.json 
+2.) Activate cfggameplay.json 
 
  Nitrado Console Servers:
   -   Settings >> General >> tick Enable cfggameplay.json. 
@@ -44,13 +44,13 @@ Ensure you activate cfggameplay.json
 
    (Note: For some PC servers, including Nitrado, the serverDZ.cfg may be hidden. To access it, enable "Expert Mode" in your settings, then navigate to "Expert Settings" to find serverDZ.cfg. Remember to stop the server before making changes.)
 
- Upload your file:
+3.) Upload your file:
 
   -  Tools >> File Browser >> dayzxb_missions >> dayzOffline.Sakhal >> custom >> "Upload File" 
  
    (If a custom folder doesn't exist, create one.)
 
-Call to the custom file using the cfggameplay.json  
+4.) Call to the custom file using the cfggameplay.json  
 
  -  Tools >> File Browser >> dayzxb_missions >> dayzOffline.Sakhal >> cfggameplay.json
 
@@ -88,8 +88,8 @@ Edit the objectSpawnerArr to look like this:
 
      
 
-SAVE YOUR FILE
+5.) SAVE YOUR FILE
 
-restart your server and the new store will spawn with all items ready for use.
+6.) Restart your server and the new store will spawn with all items ready for use.
 
 Thanks, and happy gaming! Created by @WiffleWhomper For support or inquiries: WiffleWorkShop@gmail.com

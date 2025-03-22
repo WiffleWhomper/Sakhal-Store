@@ -33,6 +33,9 @@ Instructions:
 
   Ensure your server is offline before proceeding.
 
+
+
+
 2.) Activate cfggameplay.json 
 
  Nitrado Console Servers:
@@ -44,11 +47,17 @@ Instructions:
 
    (Note: For some PC servers, including Nitrado, the serverDZ.cfg may be hidden. To access it, enable "Expert Mode" in your settings, then navigate to "Expert Settings" to find serverDZ.cfg. Remember to stop the server before making changes.)
 
+
+
+
 3.) Upload your file:
 
   -  Tools >> File Browser >> dayzxb_missions >> dayzOffline.Sakhal >> custom >> "Upload File" 
  
    (If a custom folder doesn't exist, create one.)
+
+
+
 
 4.) Call to the custom file using the cfggameplay.json  
 
@@ -66,7 +75,8 @@ Instructions:
 
 Edit the objectSpawnerArr to look like this:
 
-"objectSpawnersArr": ["custom/sakhalstore.json"]
+
+    "objectSpawnersArr": ["custom/sakhalstore.json"]
 
  If you're already calling other custom JSONs to spawn items or buildings, separate them with commas:
 

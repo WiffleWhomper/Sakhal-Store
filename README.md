@@ -65,9 +65,11 @@ Edit the objectSpawnerArr to look like this:
 
 "objectSpawnersArr": ["custom/sakhalstore.json", "custom/anotherfile.json", "custom/differentfile.json"] 
 
+   
+   EXAMPLE OF YOUR NEW FILE         
 
-   EXAMPLE OF YOUR NEW FILE:           
-"WorldsData":
+         
+          "WorldsData":
         	{
         		"lightingConfig": 2,
         		"objectSpawnersArr": ["custom/sakhalstore.json", "custom/anotherfile.json", "custom/differentfile.json"],
@@ -76,6 +78,8 @@ Edit the objectSpawnerArr to look like this:
         		"wetnessWeightModifiers": [1.0, 1.0, 1.33, 1.66, 2.0],
         		"playerRestrictedAreaFiles": ["pra/warheadstorage.json"]
         	},
+
+     
 
 SAVE YOUR FILE
 

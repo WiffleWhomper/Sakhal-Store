@@ -31,15 +31,32 @@ Instructions:
 
 Stop Your Server Ensure your server is offline before proceeding.
 
-Activate cfggameplay.json For console users on Nitrado Servers, go to "General Settings" and tick Enable cfggameplay.json. For PC Servers, add the following line to your serverDZ.cfg:
+Ensure you activate cfggameplay.json 
 
-enableCfgGameplayFile = 1; (Note: For some PC servers, including Nitrado, the serverDZ.cfg may be hidden. To access it, enable "Expert Mode" in your settings, then navigate to "Expert Settings" to find serverDZ.cfg. Remember to stop the server before making changes.)
+ Nitrado Console Servers:
+   Settings >> General >> tick Enable cfggameplay.json. 
 
-Upload the JSON File Upload sakhalstore.json from the extracted files to the "custom" folder within the mission directory on your server. (If a custom folder doesn't exist, create one.)
+ For PC Servers, add the following line to your serverDZ.cfg:
+  enableCfgGameplayFile = 1; 
+   (Note: For some PC servers, including Nitrado, the serverDZ.cfg may be hidden. To access it, enable "Expert Mode" in your settings, then navigate to "Expert Settings" to find serverDZ.cfg. Remember to stop the server before making changes.)
 
-Edit the cfggameplay.json Open the cfggameplay.json file in the correct mission file for your server and locate the "objectSpawnersArr" line. This tells your server to load your custom file.
+ Upload your file:
+  Tools >> File Browser >> dayzxb_missions >> dayzOffline.Sakhal >> custom >> "Upload File"  
+   (If a custom folder doesn't exist, create one.)
 
-Edit the file to look like this:
+Call to the custom file using the cfggameplay.json  
+ Tools >> File Browser >> dayzxb_missions >> dayzOffline.Sakhal >> cfggameplay.json
+          "WorldsData":
+        	{
+        		"lightingConfig": 2,
+        		"objectSpawnersArr": [],
+        		"environmentMinTemps": [-6.5, -9.5, -6.5, -9.5, 2, 6, 9, 10, 6, 1, -5, -10],
+        		"environmentMaxTemps": [-3, -5, -3, -5, 9, 14, 16, 17, 14, 8, 1, -3],
+        		"wetnessWeightModifiers": [1.0, 1.0, 1.33, 1.66, 2.0],
+        		"playerRestrictedAreaFiles": ["pra/warheadstorage.json"]
+        	},
+
+Edit the objectSpawnerArr to look like this:
 
 "objectSpawnersArr": ["custom/sakhalstore.json"]
 
@@ -47,6 +64,20 @@ Edit the file to look like this:
 
 "objectSpawnersArr": ["custom/sakhalstore.json", "custom/anotherfile.json", "custom/differentfile.json"] 
 
- restart your server and the new store will spawn with all items ready for use.
 
-Thanks, and happy gaming! Created by @WiffleWhomper For support or inquiries: c.lindberg823@gmail.com
+   EXAMPLE OF YOUR NEW FILE:           
+"WorldsData":
+        	{
+        		"lightingConfig": 2,
+        		"objectSpawnersArr": ["custom/sakhalstore.json", "custom/anotherfile.json", "custom/differentfile.json"],
+        		"environmentMinTemps": [-6.5, -9.5, -6.5, -9.5, 2, 6, 9, 10, 6, 1, -5, -10],
+        		"environmentMaxTemps": [-3, -5, -3, -5, 9, 14, 16, 17, 14, 8, 1, -3],
+        		"wetnessWeightModifiers": [1.0, 1.0, 1.33, 1.66, 2.0],
+        		"playerRestrictedAreaFiles": ["pra/warheadstorage.json"]
+        	},
+
+SAVE YOUR FILE
+
+restart your server and the new store will spawn with all items ready for use.
+
+Thanks, and happy gaming! Created by @WiffleWhomper For support or inquiries: WiffleWorkShop@gmail.com

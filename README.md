@@ -5,9 +5,9 @@ Store created for players on my xbox community server. Inside of an otherwise em
 
 Limited testing was conducted on Xbox Series S using DayZ Version 1.26 as of March 2025.
 
-Created by @WiffleWhomper. For bug reports or issues, please email c.lindberg823@gmail.com with relevant screenshots.
+Created by @WiffleWhomper. For bug reports or issues, please email WiffleWorkShop@gmail.com with relevant screenshots.
 
-If you'd like to edit any file, simply load the .DZE file into the DayZ Editor.
+If you'd like to edit any file, simply upload the .DZE file into the DayZ Editor.
 
 TERMS OF USE THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 

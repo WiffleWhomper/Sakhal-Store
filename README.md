@@ -34,11 +34,11 @@ Stop Your Server Ensure your server is offline before proceeding.
 Ensure you activate cfggameplay.json 
 
  Nitrado Console Servers:
-  -  Settings >> General >> tick Enable cfggameplay.json. 
+  -   Settings >> General >> tick Enable cfggameplay.json. 
 
  For PC Servers, add the following line to your serverDZ.cfg:
 
-  enableCfgGameplayFile = 1; 
+ -  enableCfgGameplayFile = 1; 
 
    (Note: For some PC servers, including Nitrado, the serverDZ.cfg may be hidden. To access it, enable "Expert Mode" in your settings, then navigate to "Expert Settings" to find serverDZ.cfg. Remember to stop the server before making changes.)
 

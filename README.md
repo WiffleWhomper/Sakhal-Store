@@ -30,6 +30,7 @@ https://jsonlint.com/
 Instructions:
 
 Stop Your Server!!
+
   Ensure your server is offline before proceeding.
 
 Ensure you activate cfggameplay.json 
